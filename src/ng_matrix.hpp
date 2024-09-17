@@ -1,7 +1,6 @@
 #ifndef _NG_MATRIX_HPP_
 #define _NG_MATRIX_HPP_
 #include <ostream>
-#include <functional>
 #include "ng_mixed_buffer.hpp" // vector
 
 namespace ngineer

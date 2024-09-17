@@ -1,6 +1,3 @@
-#include <functional>
-#include <future>
-#include <mutex>
 #include <sstream>
 #include <stdexcept>
 #include "ng_matrix.hpp" // ng_mixed_buffer.hpp, ng_typedefs.hpp, functional, vector
