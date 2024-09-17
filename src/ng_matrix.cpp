@@ -493,9 +493,7 @@ namespace ngineer
             {
                 for (buflen_t x = 0; x < n; x++)
                 {
-                    std::async([&](){
-                        product[{ i, j }] += (*this)[{ i, x }] * rhs[{ x, j }];
-                    });
+                    product[{ i, j }] += (*this)[{ i, x }] * rhs[{ x, j }];
                 }
             }
         }
